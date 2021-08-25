@@ -1,29 +1,30 @@
-title: Dr. Frank Wood
-email: fwood@cs.ubc.ca
+title: Justice Sefas
+email: jsefas@cs.ubc.ca
 description: >- # this means to ignore newlines until "baseurl:"
-   Research Homepage for Frank Wood
-baseurl: "/~fwood" # the subpath to your homepage, typically /~username
+   Research Homepage for Justice Sefas
+baseurl: "/~jsefas" # the subpath to your homepage, typically /~username
 url: "https://www.cs.ubc.ca" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: frankdonaldwood
-github_username:  fwood
+github_username:  jds8
 
 nav:
  - name: Home
    link: "/"
+ - name: Posts 
+   link: "/posts/"
 # - name: Code
 #   link: "/code/"
- - name: People
-   link: "/people"
- - name: Teaching
-   link: "/teaching"
+# - name: People
+#   link: "/people"
+# - name: Teaching
+#   link: "/teaching"
 # - name: Talks
 #   link: "/talks/"
- - name: Papers
-   link: "/papers"
- - name: "Bio"
-   link: "/bio"
- - name: "CV"
-   link: "/cv.pdf"
+# - name: Papers
+#   link: "/papers"
+# - name: "Bio"
+#   link: "/bio"
+# - name: "CV"
+#   link: "/cv.pdf"
 # - name: "Contact"
 #   link: "/contact"
 

@@ -1,5 +1,26 @@
 This is the UBC faculty webpage template bitbucket repository.
 
+# Notes for future Justice
+- the scripts in tasks/ generate the \_site/ directory which is the self-contained site
+- tasks/watch generates the site locally and works fine
+- tasks/deploy generates the site at cs.ubc and is slightly different
+  - in \_config.yml make sure baseurl is /~jsefas
+  - in posts.md make sure that /~jsefas prefixes {{ post.url }} in the anchor within the div
+  - make sure you create each new\_post.html in the \_posts/ directory
+    - there should be no posts/ directory or anything else but \_posts/
+    - a posts/ directory gets created inside \_site but that's automated
+- When exporting an org file to html:
+  - only export the body, i.e. what's within the html body tags
+    - do this by exporting via SPC m e C-b
+  - put org filenames in YYYY-MM-DD-post-name.org format so that the html file gets exported in the same way so that *Jekyll* can understand it
+  - put the following at the top of the file so that it gets exported *literally* to the html (note that the /new\_title/ is *not* literal):
+    #+BEGIN_EXPORT html
+    ---
+    layout: post
+    title: /new_title/
+    ---
+    #+END_EXPORT
+
 # Getting Started
 
 This template, when deployed, produces a static website like [this](https://www.cs.ubc.ca/~fwood/template).

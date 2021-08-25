@@ -2,33 +2,12 @@
 layout: default
 ---
 
-## Quickstart Guide
-
-Click [here](https://bitbucket.org/UBCCS/jekyll-faculty/src/master/) to return to the 
-repository website that shows instructions on how to use
-and customize this UBC CS faculty and course static website generator yourself.  Browse
-the markdown files in particular (```.md``` file extension; start with ```index.md``` -- make sure you view the raw source).
-
-Browse the remainder of this demonstration website to gain a sense of what can
-be easily and efficiently generated and maintained (like $x^2 + 1 = 17$, ```while(true) ++i```, and the references below).
-
----------------
-## About Me
+## Background
 
 <img class="profile-picture" src="headshot.jpg">
 
-I am an associate professor of computer science at the University of British Columbia.
-
+I am a graduate student in computer science at the University of British Columbia supervised by Frank Wood. My current research is in machine learning at [Inverted AI](https://www.inverted.ai/) and the [UBC PLAI group](https://plai.cs.ubc.ca/). Prior to this I was at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/) and before that at [Cornell University](https://www.cornell.edu/).
 
 ## Research Interests
 
-My primary research areas are probabilistic programming and applied statistical
-machine learning. My research interests range from the development of new
-probabilistic models and inference algorithms to real-world applications. My
-research contributions include probabilistic programming systems, new models and
-inference algorithms, and novel applications of such models to problems in
-neuroscience, natural language processing, robotics, and compression.
-
-## Selected Publications
-
-{% bibliography --file selected.bib %}
+My interests include machine learning for autonomous vehicles and multi-agent coordination as well as probabilistic and functional programming.
