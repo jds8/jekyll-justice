@@ -16,12 +16,12 @@ This is the UBC faculty webpage template bitbucket repository.
 
 ## put the following at the top of the org file so that it gets exported *verbatim* to the html (note that the /new\_title/ is *not* verbatim):
 
-#+BEGIN\_EXPORT html\n
-\---\n
-layout: post\n
-title: new\_title\n
-\---\n
-#+END\_EXPORT
+    #+BEGIN\_EXPORT html
+    ---
+    layout: post
+    title: new\_title
+    ---
+    #+END\_EXPORT
 
 # Getting Started
 
