@@ -13,13 +13,13 @@ This is the UBC faculty webpage template bitbucket repository.
   - only export the body, i.e. what's within the html body tags
     - do this by exporting via SPC m e C-b
   - put org filenames in YYYY-MM-DD-post-name.org format so that the html file gets exported in the same way so that *Jekyll* can understand it
-  - put the following at the top of the file so that it gets exported *literally* to the html (note that the /new\_title/ is *not* literal):
-    #+BEGIN_EXPORT html
-    ---
-    layout: post
-    title: /new_title/
-    ---
-    #+END_EXPORT
+  - put the following at the top of the file so that it gets exported *verbatim* to the html (note that the /new\_title/ is *not* verbatim):
+  #+BEGIN\_EXPORT html
+  ---
+  layout: post
+  title: /new\_title/
+  ---
+  #+END\_EXPORT
 
 # Getting Started
 
